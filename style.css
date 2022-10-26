@@ -4,19 +4,27 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: gray;
 }
 
 main {
-    background-color: aliceblue;
+    background-color: antiquewhite;
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 7px 7px 7px gray;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.404);
 }
 
 img.banner {
     width: 100%;
+}
+
+iframe.video {
+    width: 100%;
+}
+
+img.back {
+    width: 25px;
 }
 
 img.lado {
